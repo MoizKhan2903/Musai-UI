@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    background-size: cover;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    border:50px solid;
+    border-color: #9C9BA6;
+    background-color: #F8F7FD;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    height: 75px;
+    width: 150pxpx;
+    padding-left: 20px;    
+}
+#rightpart{
+    position:absolute;
+    display: flex;
+    gap: 50px;
+    padding-left: 35%;
+    object-fit: cover;
+}
+#rightpart h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+#rightimage img{
+      padding-top: 15px;
+      padding-right: 20px;
+      height: 100px;
+      object-fit: cover;
+      
+    }
+
+    #center img{
+        
+        
+        height: 30%;
+        width: 40%;
+        object-fit: cover;
+        margin-left: 385px;
+
+        
+    }
+    #bottom{
+        background-color: #F8F7FD;
+        height: 40%;
+        width: 100%;
+        display: flex;
+    }
+
+    #bottomleft{
+        position: relative;
+        height: 100%;
+        width: 62%;
+        background-color:#FFFFFF;
+        left: 22px;
+    }
+    #bottomright{
+        position: relative;
+        height: 100%;
+        width: 36.5%;
+        background-color:#F8E7E3;
+    }
+    #up{
+        height: 30%;
+        display: flex;
+        gap: 250px;
+    }
+    #up button{
+        background-color:#D3D0EC;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border: none;
+        border-radius: 50px;
+        padding: 3px 30px;
+        margin-left: 40px;
+        margin-top: 30px;
+    
+    }
+    #up h1{
+        padding-top: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 34px;
+
+    }
+    #profile{
+        height:50%;
+        width:100%;
+        background-color:#FFFFFF;
+    
+    }
+    #image1{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        left: 50px;
+        top: 30px;
+    }
+    #profile h2{
+        position: absolute;
+        left: 15%;
+        top: 44%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:18px ;
+        font-weight: bold;
+    }
+    #profile h3{
+        position: absolute;
+        left: 15%;
+        top: 54%;
+        font-weight: 200;
+        color: #C1C0C2;
+    }
+    #profile h1{
+        position:absolute;
+        left: 50%;
+        top: 45%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+    }
+    #profile h4{
+        position:absolute;
+        left: 61%;
+        top: 45%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-weight: 100;
+    }
+    #profile hr{
+        margin-left: 17px;
+        margin-top: 48px;
+        width: 94%;
+    }
+    #profile p{
+        position:absolute;
+        left: 91%;
+        top: 45%;
+        font-size: 20px;
+        align-items: center;
+        font-weight: bold;
+    }
+    #image2{
+        position: relative;
+        height: 55px;
+        width: 55px;
+        object-fit: cover;
+        left: 53px;
+        top: 2px;
+    }
+    #sup h5{
+        position:absolute;
+        left: 14%;
+        top: 77%;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+    }
+    #sup h6{
+        position: absolute;
+        left: 15%;
+        top: 86%;
+        font-weight: 200;
+        color: #C1C0C2;
+        font-size: 18px;
+    }
+    #sup h2{
+        position:absolute;
+        left: 50%;
+        top: 78%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+
+    }
+    #sup h3{
+        position:absolute;
+        left: 62.5%;
+        top: 78%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-weight: 100;
+        color: black;
+    }
+    
+    #logo{
+        padding-left: 77%;
+    }
+
+
+    #bottomright h1{
+        padding-top: 25px;
+        padding-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:18px ;
+        font-weight:200 ;
+        color: #93665B;
+    }
+    #a{position: absolute;
+        height: 80px;
+        width: 80px;
+        left: 70%;
+        top:8%;
+        object-fit: cover;
+    }
+    #b{
+        padding-bottom: 60px;
+        height: 90%;
+        width: 90%;
+        object-fit: cover;
+    }
+        
+    
+    
